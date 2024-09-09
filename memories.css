@@ -1,0 +1,122 @@
+/* General styles remain the same */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8fbebe;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url("dogo/dog 2.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 45px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 21px;
+    margin-top: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'Averia Libre', cursive;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  /* Carousel Section */
+  .carousel {
+    margin: 25px;
+    transform: translateY(20px);
+    padding: 10px;
+    height: 600px;
+    background-image: url('memories/memory1.jpg');
+    border-radius: 40px;
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .carousel-content h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 52px;
+  }
+  
+  .carousel-content p {
+    font-family: nerko one;
+    font-size: 32px;
+  }
+  
+  /* Thumbnails Section */
+  #image-thumbnails {
+    text-align: center;
+    margin: 30px 0;
+    color: #FFF4EA;
+  }
+  
+  .thumbnail-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .thumbnail {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: border 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    border-color: #fff; 
+    border-radius: 20px;
+  }
+  
+  /* Footer */
+  footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 16px;
+  }
+  
+  footer a {
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      margin: 10px;
+  }
+  

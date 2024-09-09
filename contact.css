@@ -1,0 +1,141 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styling */
+body {
+  font-family: Poppins, sans-serif;
+  margin: 1px;
+  padding: 0;
+  background-color: #495050;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-image: url("dogo/dog 2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #fff;
+}
+
+.logo {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 45px;
+  text-align: left;
+  margin: 1px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 21px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Averia Libre', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Contact Section Styling */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Exo', sans-serif;
+  color: #333;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  #contact {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    padding:20px;
+    margin:10px;
+  }
