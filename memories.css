@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: url("dogo/dog 2.jpg"); 
+    background-image: url("https://i.ibb.co/4s0kMDT/dog-2.jpg"); 
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -57,7 +57,7 @@ body {
     transform: translateY(20px);
     padding: 10px;
     height: 600px;
-    background-image: url('memories/memory1.jpg');
+    background-image: url('https://i.ibb.co/wCpjsfg/memory1.jpg');
     border-radius: 40px;
     background-size:contain;
     background-position: center;
